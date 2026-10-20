@@ -10,14 +10,14 @@ saved_data = joblib.load("model.joblib")
 model = saved_data["model"]
 feature_names = saved_data["features"]
 
-PORT = "/dev/ttyACM0"
+PORT = "/dev/ttyACM0"  # Serial port
 BAUD_RATE = 115200
 CALIBRATION_SAMPLES = 10
 
-# HIGH SENSITIVITY SETTINGS
-# ALPHA = 0.6 means 60% weight on raw reading (faster response to subtle scents)
+
+# ALPHA = 0.5
 ALPHA = 0.6 
-# CONFIDENCE_THRESHOLD = 0.45 catches subtle class signals instead of declaring 'purging'
+# CONFIDENCE_THRESHOLD = 0.45
 CONFIDENCE_THRESHOLD = 0.6
 
 smoothed_ratios = None
