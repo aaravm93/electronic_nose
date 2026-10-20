@@ -134,3 +134,6 @@ firmware/              PlatformIO ESP32-S3 firmware project
 
 The additional `model1.joblib` through `model4.joblib` files and the other CSV
 files are not used by the current training/prediction commands.
+<img width="4032" height="3024" alt="IMG_5991" src="https://github.com/user-attachments/assets/651a46fe-78d0-4e0a-8f15-797085a4fbc4" />
+<img width="4032" height="3024" alt="IMG_5993" src="https://github.com/user-attachments/assets/a9586360-9679-4769-8af5-2e2ca8d61974" />
+<img width="5712" height="4284" alt="IMG_5992" src="https://github.com/user-attachments/assets/02ebc153-c032-41f7-9c2c-e32d2ed92f9a" />
